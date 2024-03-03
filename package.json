@@ -4,7 +4,8 @@
   "description": "Project Food Explorer API",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "node ./src/server.js",
+    "dev": " node --watch ./src/server.js"
   },
   "author": "Natalye Cavalieri",
   "license": "ISC",
