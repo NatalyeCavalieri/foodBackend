@@ -1,6 +1,6 @@
 const sqliteConnection = require("../../sqlite")
 
-const createUsers = require('./createUsers')
+const createUsers = require('../../knex/migrations/20240328080708_createUsers')
 
 
 async function migrationsRun(){

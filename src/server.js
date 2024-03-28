@@ -1,7 +1,7 @@
 require("express-async-errors")
 const AppError = require("./utils/AppError")
 
-const migrationsRun = require("./database/sqlite/migrations")
+const migrationsRun = require("./database/knex/migrations/migrationsRun")
 
 const express = require("express")
 const routes = require("./routes")
